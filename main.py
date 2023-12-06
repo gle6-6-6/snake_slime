@@ -18,7 +18,7 @@ size = [SIZE_BLOCK * COUNT_BLOCKS + 2 * SIZE_BLOCK + MARGIN * COUNT_BLOCKS,
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption('Python Snake')
 timer = pygame.time.Clock()
-
+time
 
 class Snakeblock():
     def __init__(self, x, y):
